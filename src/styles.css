@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  overflow-y: auto;
+  font-size: 16px;
+  max-width: 2160px;
+  height: 100%;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Condensed";
+}
+
+@media screen and (max-width: 1079px) {
+  html{
+    font-size: 10px;
+  }
+}
