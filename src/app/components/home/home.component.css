@@ -10,7 +10,8 @@
 }
 
 .head-container{
-  height: 569px;
+  /* height: 569px; */
+  height: content;
   background-image: url('/assets/images/background.png');
   background-repeat: no-repeat;
   background-position: left -18px top -178px;
@@ -35,7 +36,8 @@
   font-family: 'Khand', sans-serif;;
   font-size: 60px;
   font-weight: 300;
-  line-height: 59px;
+  line-height: 82px;
+  text-align: center;
 }
 .greeting-dla{
   /* font-family: 'Khand - Bold', sans-serif; */
@@ -50,14 +52,33 @@
 
 .video-form-block{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 1041px;
+  height: 419px;
 }
 .video{
   width: 688px;
   height: 395px;
+  /* margin-bottom: 25px; */
   background-color: #000000;
 }
 .signup-wrapper{
   width: 330px;
-  margin-left: 21px;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+  .video-form-block{
+    width: 689px;
+    height: 720px;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .signup-wrapper{
+    height: 273px;
+    width: 674px;
+  }
 }

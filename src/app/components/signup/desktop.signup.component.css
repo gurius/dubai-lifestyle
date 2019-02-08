@@ -1,0 +1,47 @@
+.block{
+  width: 100%;
+  width: 332px;
+}
+
+.line{
+  margin-bottom: 10px;
+  display: flex;
+  flex: 0 0 332px;
+}
+.input--code{
+  flex: 0 0 62px;
+}
+.input--phone{
+  flex: 0 0 222px;
+  margin-left: 8px;
+}
+
+.input--very-narrow{
+  width: 80px;
+  margin-right: 10px;
+}
+.input--narrow{
+
+}
+
+@media screen and (max-width: 1200px) {
+  .line--fname{
+    order: 1;
+  }
+  .line--email{
+    order: 2;
+  }
+  .line--lname{
+    order: 3;
+  }
+  .line--password{
+    order: 4;
+  }
+  .line--code{
+    order: 5;
+  }
+  .line--phone{
+    order: 6;
+    flex: 0 1 297px;
+  }
+}
