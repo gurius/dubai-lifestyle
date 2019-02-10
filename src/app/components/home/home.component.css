@@ -54,7 +54,7 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  width: 1041px;
+  width: 1040px;
   height: 419px;
 }
 .video{
@@ -67,6 +67,45 @@
   width: 330px;
   display: flex;
   margin-bottom: 24px;
+}
+
+.section{
+  border-bottom: 1px solid #dbdbdb;
+  width: 1040px;
+  padding-top: 24px;
+}
+
+.text-block{
+  font-family: "Roboto Condensed";
+  color: #494949;
+  font-size: 27px;
+  line-height: 44px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 10.3px;
+}
+.text-block__line{
+  line-height: 30px;
+}
+.text-block__line--last{
+  margin-bottom: 24px;
+}
+.text-block__line--des-crazy{
+  line-height: 19px;
+}
+.dla--sum{
+  font-size: 68px;
+  line-height: 92px;
+}
+.dolar{
+  color: #5e5d5d;
+  font-family: "Roboto Condensed";
+  font-size: 68px;
+  font-weight: 300;
+}
+.foxy-bold--big{
+  font-size: 30px;
+  line-height: 51px;
 }
 
 @media screen and (max-width: 1200px) {
