@@ -8,6 +8,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { SecurityComponent } from './components/security/security.component';
 import { DlaTeamComponent } from './components/dla-team/dla-team.component';
+import { LiveAccountsComponent } from './components/live-accounts/live-accounts.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DlaTeamComponent } from './components/dla-team/dla-team.component';
     SignupComponent,
     TopBarComponent,
     SecurityComponent,
-    DlaTeamComponent
+    DlaTeamComponent,
+    LiveAccountsComponent
   ],
   imports: [
     BrowserModule,

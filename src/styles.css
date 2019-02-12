@@ -2,6 +2,10 @@
 :root{
   --foxy: #ee8101;
   --light-black: #494949;
+  --lighter-black: #606060;
+  --special-gray: #2d2e2f;
+  --dark-brown: #4e2a00;
+  --violet: #8e11ef;
 }
 html, body {
   overflow-y: auto;
@@ -9,6 +13,42 @@ html, body {
   max-width: 2160px;
   height: 100%;
   margin: auto;
+}
+
+h2{
+  font-family: Khand;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 57px;
+  color: var(--dark-brown);
+  text-align: center;
+  margin: 29px 0 29px 0;
+}
+
+h3{
+  color: var(--foxy);
+  font-family: Khand;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+h4{
+  margin: 0;
+}
+
+h5{
+  margin: 0;
+  font-size: 16;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+  color: var(--light-black);
+  font-family: "Roboto Condensed";
+  font-size: 26px;
+  font-weight: 300;
 }
 
 body {

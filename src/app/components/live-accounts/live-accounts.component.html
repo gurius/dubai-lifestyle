@@ -1,0 +1,188 @@
+<h2 class="accounts-heading">Watch Live Accounts</h2>
+<div class="accounts-containder">
+
+  <div class="accounts">
+    <div class="accounts-item accounts-item--active">
+      <div class="frame">
+        <img class="frame-photo member--1" src="/assets/images/member-1.jpg" alt="">
+      </div>
+      <div class="accounts-item__info">
+        <h4 class="name name--active">Erin Parkes</h4>
+        <p class="price-line price-line--active">
+          Starting:
+          <span class="dolar-prefix dolar-prefix--active val-start val-start--active">300</span>
+        </p>
+        <p class="price-line price-line--active">
+          Profit:
+          <span class="dolar-prefix dolar-prefix--active val-profit val-profit--active">23,145</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="accounts-item">
+      <div class="frame">
+        <img class="frame-photo frame-photo--inactive member--2" src="/assets/images/member-2.jpg" alt="">
+      </div>
+      <div class="accounts-item__info">
+        <h4 class="name name--inactive">Gabriel Massie</h4>
+        <p class="price-line price-line--inactive">
+          Starting:
+          <span class="dolar-prefix dolar-prefix--inactive val-start val-start--inactive">300</span>
+        </p>
+        <p class="price-line price-line--inactive">
+          Profit:
+          <span class="dolar-prefix dolar-prefix--inactive val-profit val-profit--inactive">23,145</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="accounts-item">
+      <div class="frame">
+        <img class="frame-photo frame-photo--inactive member--3" src="/assets/images/member-3.jpg" alt="">
+      </div>
+      <div class="accounts-item__info">
+        <h4 class="name name--inactive">Imogen Haddon</h4>
+        <p class="price-line price-line--inactive">
+          Starting:
+          <span class="dolar-prefix dolar-prefix--inactive val-start val-start--inactive">300</span>
+        </p>
+        <p class="price-line price-line--inactive">
+          Profit:
+          <span class="dolar-prefix dolar-prefix--inactive val-profit val-profit--inactive">23,145</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="accounts-item">
+      <div class="frame">
+        <img class="frame-photo frame-photo--inactive member--4" src="/assets/images/member-4.jpg" alt="">
+      </div>
+      <div class="accounts-item__info">
+        <h4 class="name name--inactive">Benjamin Potts</h4>
+        <p class="price-line price-line--inactive">
+          Starting:
+          <span class="dolar-prefix dolar-prefix--inactive val-start val-start--inactive">300</span>
+        </p>
+        <p class="price-line price-line--inactive">
+          Profit:
+          <span class="dolar-prefix dolar-prefix--inactive val-profit val-profit--inactive">23,145</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="account-detail">
+    <div class="stats">
+      <div class="stats__item">
+        Open: <span class="stat__number">7</span>
+      </div>
+      <div class="stats__item">
+        Won: <span class="stat__number">320</span>
+      </div>
+      <div class="stats__item">
+        Lost: <span class="stat__number">295</span>
+      </div>
+      <div class="stats__item">
+        Total: <span class="stat__number">662</span>
+      </div>
+    </div>
+
+    <div class="table-detail">
+      <div class="table-detail__title">
+        trade history
+      </div>
+      <div class="table-detail__updated">
+        Last Updated:
+        <span class="table-detail__date">14:5:46 17-5-2015</span>
+      </div>
+    </div>
+      <div class="table-wrapper">
+        <div class="t-head">
+          <div class="col-asset">
+            asset
+          </div>
+          <div class="col-position">
+            position
+          </div>
+          <div class="col-amount-h">
+            amount
+          </div>
+          <div class="col-entry-rate">
+            entry rate
+          </div>
+          <div class="col-closing-rate">
+            closing rate
+          </div>
+          <div class="col-payout-h">
+            payout
+          </div>
+          <div class="col-profit">
+            profit
+          </div>
+          <div class="col-date">
+            date
+          </div>
+          <div class="col-status">
+            status
+          </div>
+        </div>
+        <div class="t-row" *ngFor="let record of data">
+          <div class="t-sell col-asset">
+            {{record.asset}}
+          </div>
+          <div class="t-sell col-position {{record.position == 'PUT' ? 'col-position--put' : 'col-position--call'}}">
+            {{record.position}}
+          </div>
+          <div class="t-sell col-amount">
+            {{record.amount}}
+          </div>
+          <div class="t-sell col-entry-rate">
+            {{record.entry_rate}}
+          </div>
+          <div class="t-sell col-closing-rate">
+            {{record.closing_rate}}
+          </div>
+          <div class="t-sell col-payout">
+            {{record.payout && '$'}} {{record.payout}}
+          </div>
+          <div class="t-sell col-profit">
+            {{record.profit}}
+          </div>
+          <div class="t-sell col-date">
+            {{record.date}}
+          </div>
+
+          <div class="t-sell col-status">
+            <div class="col-status__block {{record.status == 'lost' ? 'col-status--lost' : 'col-status--won'}}">
+              {{record.status}}
+            </div>
+          </div>
+        </div>
+        <div class="t-footer">
+          <div class="pages-stats">
+            Showing 1 to 25 of 101 entries
+          </div>
+          <div class="pagination">
+            <div class="page-num page-num--active">
+              1
+            </div>
+            <div class="page-num">
+              2
+            </div>
+            <div class="page-num">
+              3
+            </div>
+            <div class="page-num">
+              4
+            </div>
+            <div class="page-num">
+              5
+            </div>
+            <div class="page-next">
+              <img src="/assets/images/next.png" alt="next page">
+            </div>
+          </div>
+        </div>
+     </div>
+  </div>
+</div>

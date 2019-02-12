@@ -12,7 +12,7 @@
 .head-container{
   /* height: 569px; */
   height: content;
-  background-image: url('/assets/images/background.png');
+  background-image: url('/assets/images/background.jpg');
   background-repeat: no-repeat;
   background-position: left -18px top -178px;
   background-size: 2438px 1435px;
@@ -72,7 +72,6 @@
 .section{
   border-bottom: 1px solid #dbdbdb;
   width: 1040px;
-  padding-top: 24px;
 }
 
 .text-block{
@@ -86,6 +85,9 @@
 }
 .text-block__line{
   line-height: 30px;
+}
+.text-block__line--first{
+  margin-top: 37px;
 }
 .text-block__line--last{
   margin-bottom: 24px;
@@ -106,6 +108,88 @@
 .foxy-bold--big{
   font-size: 30px;
   line-height: 51px;
+}
+
+.three-ss{
+  font-family: Khand;
+  font-weight: 700;
+}
+
+ol.dubai-list {
+  list-style-type: none;
+
+  margin: 0;
+  margin-left: 90px;
+  padding: 0;
+
+  counter-reset: li-counter;
+}
+ol.dubai-list > li{
+  position: relative;
+  margin-bottom: 32px;
+  padding-left: 18px;
+  min-height: 89px;
+  font-family: "Roboto Condensed";
+  font-size: 26px;
+  line-height: 33px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+ol.dubai-list > li:before {
+  position: absolute;
+  top: 0;
+  left: -88px;
+  width: 83px;
+  height: 83px;
+
+  font-family: 'Just Another Hand', cursive;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 100px;
+  text-align: center;
+  color: var(--dark-brown);
+
+  border: 3px solid var(--foxy);
+  border-radius: 50%;
+  background-color: white;
+  content: counter(li-counter);
+  counter-increment: li-counter;
+}
+
+.benefit-block-1{
+  max-width: 842px;
+  text-align: center;
+  margin: auto;
+}
+
+.benefit-block-2{
+  display: flex;
+  flex-flow: row wrap;
+  width: 1040px;
+  margin: 24px auto 0 auto;
+  justify-content: space-between;
+  height: 450px;
+}
+.benefit-block-2__item{
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 500px;
+}
+.benefit-block-2__text{
+  width: 360px;
+}
+.benefit--paragraph{
+  color: #363636;
+  font-family: "Roboto Condensed";
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.qurstions-heading{
+  color: var(--light-black);
 }
 
 @media screen and (max-width: 1200px) {

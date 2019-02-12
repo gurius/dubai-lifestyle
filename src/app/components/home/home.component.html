@@ -19,22 +19,26 @@
 
   <div class="body-container">
     <div class="center-wrapper">
+
       <section class="section section--security">
         <app-security></app-security>
       </section>
+<!-- prefase -->
       <section class="section section--prefase">
         <div class="text-block">
-          <div class="text-block__line">
+          <div class="text-block__line text-block__line--first">
             Hi! The entire team at the
             <span class="dla">{{'dubai lifestyle app' | uppercase}}</span>
             App is thrilled you’ve made it into the
             <span class="foxy-bold">{{'member’s area.' | uppercase}}</span>
           </div>
           <div class="text-block__line">
-            You’re only one step away from officially becoming a beta tester and raking in over
+            You’re only one step away from officially becoming
+            a beta tester and raking in over
           </div>
           <div class="text-block__line">
-            <span class="dolar">$</span><span class="dla dla--sum">7,183.82</span>
+            <span class="dolar">$</span>
+            <span class="dla dla--sum">7,183.82</span>
           </div>
           <div class="text-block__line text-block__line--des-crazy">
             in profits each and
@@ -56,19 +60,95 @@
           <app-dla-team></app-dla-team>
         </div>
       </section>
-      <section class="section section--instruction">
-      </section>
-      <section class="section section--benefit">
+<!-- prefase end -->
 
+<!-- instruction -->
+      <section class="section section--instruction">
+        <h2>Start Profiting In
+          <span class="three-ss">{{'3 simple steps' | titlecase}}</span>
+        </h2>
+        <ol class="dubai-list">
+          <li><div>
+              Complete the registration form with your
+              accurate details and hit submit
+          </div></li>
+          <li><div>
+            Deposit the minimum brokers’ requirement of at
+            least $250 to activate your account.
+          </div></li>
+          <li><div>
+            After depositing your funds, you will receive an email from me with
+            details on how to log into your account and our recommended broker
+            will manage your account and start making you the profits you want
+            and deserve.
+          </div></li>
+        </ol>
       </section>
+<!-- instruction end -->
+
+<!-- benefit -->
+      <section class="section section--benefit">
+        <h2>Here’s What You Get When You Register</h2>
+        <p class="benefit-block-1">
+          As soon as you enter your correct details in the form below,
+          you get instant access to all of the benefits and resources
+          offered to members of our inner circle.
+        </p>
+        <div class="benefit-block-2">
+          <div class="benefit-block-2__item">
+            <img src="/assets/images/auto-trade.png" alt="Auto-Trade Functionality">
+            <div class="benefit-block-2__text">
+              <h3>auto-trade functionality</h3>
+              <p class="benefit-paragraph">
+                Make 99.8% accurate trades without the hassle.
+                Just select the auto-trade function and let the profits roll in.
+                Or you can simply make your own trades using our manual option.
+              </p>
+            </div>
+          </div>
+          <div class="benefit-block-2__item">
+            <img src="/assets/images/vip-area.png" alt="VIP Members Area">
+            <div class="benefit-block-2__text">
+              <h3>VIP members area</h3>
+              <p>
+                Connect with the worldwide owners of the Dubai Lifestyle App.
+                Here you can ask questions, share stories and comment about your
+                profits.
+              </p>
+            </div>
+          </div>
+          <div class="benefit-block-2__item">
+            <img src="/assets/images/24_7.png" alt="24/7 Support">
+            <div class="benefit-block-2__text">
+              <h3>24/7 support</h3>
+              <p>
+                It’s easy to reach us! Get your questions answered any day,
+                any time by our friendly customer support manager.
+              </p>
+            </div>
+          </div>
+          <div class="benefit-block-2__item">
+            <img src="/assets/images/members-newsletter.png" alt="Members-Only Newsletter">
+            <div class="benefit-block-2__text">
+              <h3>members-only newsletter</h3>
+              <p>
+                Get exclusive access to industry insights and quick and
+                effective tips you can use to maximize your profits.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- benefit end -->
 
       <section class="section section--accounts">
-
+        <app-live-accounts></app-live-accounts>
+        <h2 class="qurstions-heading">Frequently Asked Questions</h2>
       </section>
 
-      <section class="section section--questions">
+      <!-- <section class="section section--questions">
 
-      </section>
+      </section> -->
     </div>
   </div>
 

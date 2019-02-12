@@ -1,0 +1,94 @@
+{
+  "user_one": {
+    "records": [
+      {
+        "asset": "USD/ZAR",
+        "position": "PUT",
+        "amount": "100",
+        "entry_rate": "12.08325",
+        "closing_rate": "12.08325",
+        "payout": "",
+        "profit": "-74.000",
+        "date": "26/01/2015 00:24",
+        "status": "lost"
+      },
+      {
+        "asset": "USD/ZAR",
+        "position": "CALL",
+        "amount": "150",
+        "entry_rate": "12.08325",
+        "closing_rate": "12.08325",
+        "payout": "172",
+        "profit": "74.000",
+        "date": "25/01/2015 09:51",
+        "status": "won"
+      },
+      {
+        "asset": "USD/ZAR",
+        "position": "CALL",
+        "amount": "100",
+        "entry_rate": "119.226",
+        "closing_rate": "119.226",
+        "payout": "0.74328",
+        "profit": "74.000",
+        "date": "26/01/2015 00:27",
+        "status": "won"
+      },
+      {
+        "asset": "USD/ZAR",
+        "position": "CALL",
+        "amount": "150",
+        "entry_rate": "119.226",
+        "closing_rate": "119.226",
+        "payout": "",
+        "profit": "74.000",
+        "date": "19/01/2015 01:43",
+        "status": "won"
+      },
+      {
+        "asset": "USD/ZAR",
+        "position": "PUT",
+        "amount": "100",
+        "entry_rate": "12.08325",
+        "closing_rate": "12.08325",
+        "payout": "87",
+        "profit": "74.000",
+        "date": "26/01/2015 00:24",
+        "status": "lost"
+      },
+      {
+        "asset": "USD/ZAR",
+        "position": "CALL",
+        "amount": "150",
+        "entry_rate": "12.08325",
+        "closing_rate": "12.08325",
+        "payout": "87",
+        "profit": "74.000",
+        "date": "25/01/2015 09:51",
+        "status": "won"
+      },
+      {
+        "asset": "USD/ZAR",
+        "position": "PUT",
+        "amount": "100",
+        "entry_rate": "119.226",
+        "closing_rate": "119.226",
+        "payout": "",
+        "profit": "74.000",
+        "date": "26/01/2015 00:27",
+        "status": "lost"
+      },
+      {
+        "asset": "USD/ZAR",
+        "position": "CALL",
+        "amount": "150",
+        "entry_rate": "119.226",
+        "closing_rate": "119.226",
+        "payout": "172",
+        "profit": "74.000",
+        "date": "19/01/2015 01:43",
+        "status": "won"
+      }
+    ]
+  }
+}
