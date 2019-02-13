@@ -21,6 +21,10 @@
   border-radius: 4%;
   background-color: #ffffff;
 }
+.accounts-item:not(.accounts-item--active):hover{
+  border-color: rgba(185, 177, 177, 0.65);
+  cursor: pointer;
+}
 .accounts-item--active{
   border-color: var(--violet);
   background-color: var(--violet);
@@ -330,9 +334,18 @@
   text-align: center;
   line-height: 1.6;
 }
+.page-num:not(.page-num--active):hover{
+  border-radius: 4px;
+  background-color: rgba(142, 17, 238, 0.64);
+  cursor: pointer;
+}
 .page-num--active{
   border-radius: 4px;
   font-weight: 700;
   color: #eaebed;
   background-color: var(--violet);
+}
+.page-next{
+  margin-bottom: -4px;
+  cursor: pointer;
 }

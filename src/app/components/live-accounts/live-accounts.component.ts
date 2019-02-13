@@ -11,7 +11,7 @@ export class LiveAccountsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.data = <any>user_data.user_one.records;
+    this.data = user_data.user_one.records;
   }
 
 }

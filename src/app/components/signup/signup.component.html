@@ -17,9 +17,9 @@
     </div>
   </div>
 
-  <div class="block">
+  <div class="block" [class.block--top]="isTop" [class.block--bottom]="isBottom">
     <div class="line line--code-phone">
-      <input class="input input--code" type="number" placeholder="49">
+      <input class="input input--code" type="text" placeholder="49">
       <input class="input input--phone" placeholder="Phone number" type="tel" >
     </div>
   </div>

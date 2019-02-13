@@ -21,7 +21,7 @@
     <div class="center-wrapper">
 
       <section class="section section--security">
-        <app-security></app-security>
+        <app-security>We respect your privacy and your information is 100% secure</app-security>
       </section>
 <!-- prefase -->
       <section class="section section--prefase">
@@ -144,6 +144,10 @@
       <section class="section section--accounts">
         <app-live-accounts></app-live-accounts>
         <h2 class="qurstions-heading">Frequently Asked Questions</h2>
+        <div class="question-wrapper" *ngFor="let qaPair of qsAs">
+          <div (click)="onQuestionClick(ansewer, qaPair)" [class.question--answered]="qaPair.isAnswered" class="question">{{qaPair.q}}</div>
+          <div [hidden]="true" class="answer" #ansewer>{{qaPair.a}}</div>
+        </div>
       </section>
 
       <!-- <section class="section section--questions">
@@ -154,7 +158,16 @@
 
   <div class="bottom-container">
     <div class="center-wrapper">
-
+        <app-signup [is-top]="false" [is-bottom]="true"></app-signup>
+        <app-security><span [style.color]="'#fefefe'">We respect your privacy and your information is 100% secure</span></app-security>
+        <div class="epilog">
+          Binary options present a significant opportunity for you to make serious earnings, but like any investment, they present an element of risk. Potential loss of full of partial funds should be considered at all times before making any trade. We urge you to explore individual tax liability laws in your country of residence, and recommend reading our Terms of Service for more information. Please note: It is illegal under U.S. law to solicit the purchase and sale of commodity options unless explicitly listed for trading on a CFTC exchange or legally exempt.
+        </div>
+        <ul class="menu">
+          <li class="menu__item">Terms</li>
+          <li class="menu__item">Privacy</li>
+          <li class="menu__item menu__item--last">Support</li>
+        </ul>
     </div>
   </div>
 
