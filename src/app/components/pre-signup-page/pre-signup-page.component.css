@@ -1,0 +1,53 @@
+.video--ps{
+  width: 882px;
+  height: 495px;
+}
+.greeting--ps{
+  width: 785px;
+  line-height: 1;
+  margin: 27px 0 27px 0;
+}
+.signup-wrapper--ps {
+  width: 882px;
+  height: 266px;
+  margin: 0;
+}
+.seo-name{
+  margin-bottom: 0;
+}
+.ceo-details{
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Khand', sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+}
+.seo-photo-frame{
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 8px auto auto auto;
+}
+.seo-photo{
+  height: 100%;
+  width: 100%;
+}
+.text-block--ps{
+  margin: auto;
+  width: 770px;
+}
+.text-block--ps,
+.foxy-bold--ps,
+.dla--ps{
+  font-size: 24px;
+}
+app-dla-team{
+  margin-top: 18px;
+}
+.greeting--ps-bottom{
+  width: 800px;
+  font-size: 30px;
+  line-height: 1.6;
+  margin-top: 22px;
+}

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import data from './q-a.json';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-signup-page',
+  templateUrl: './signup-page.component.html',
+  styleUrls: ['./signup-page.component.css']
 })
-export class HomeComponent implements OnInit {
+export class SignupPageComponent implements OnInit {
   qsAs;
   constructor() { }
 

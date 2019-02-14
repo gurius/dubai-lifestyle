@@ -1,0 +1,16 @@
+<ul>
+  <li *ngFor="let member of comments">
+  <div class="details">
+    By {{member.name}} on {{member.comment_date}}
+    <div class="rating">
+
+    </div>
+  </div>
+  <div class="member-status">
+    {{member.status}}
+  </div>
+  <div class="comment">
+    {{member.says}}
+  </div>
+  </li>
+</ul>

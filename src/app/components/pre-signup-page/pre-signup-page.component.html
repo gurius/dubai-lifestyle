@@ -1,0 +1,86 @@
+<div class="container">
+
+  <div class="head-container">
+    <app-top-bar></app-top-bar>
+    <div class="center-wrapper">
+      <div class="greeting greeting--ps">
+        {{ 'be one of' | titlecase }}
+        <span class="greeting-dla">{{ '100 beta testers' | uppercase }}</span>
+        {{ 'to profit from the' | titlecase }}
+        <span class="greeting-dla">{{ 'dubai lifestyle app' | uppercase }}</span>
+      </div>
+      <div class="video video--ps"></div>
+      <div class="signup-wrapper signup-wrapper--ps">
+        <app-pre-signup></app-pre-signup>
+      </div>
+      <app-security><span [style.color]="'#fefefe'">We respect your privacy and your information is 100% secure</span></app-security>
+    </div>
+  </div>
+
+  <div class="body-container">
+    <div class="center-wrapper">
+
+<!-- seo-and-team -->
+      <section class="section section--seo-and-team">
+        <h2 class="seo-name">Meet Scott Hathaway</h2>
+        <div class="ceo-details">
+          CEO & founder, dubai lifestyle app
+        </div>
+        <div class="seo-photo-frame">
+          <img class="seo-photo" src="/assets/images/seo.jpg" alt="Scott Hathaway">
+        </div>
+        <div class="text-block">
+          <div class="text-block__line text-block--ps">
+            If you haven’t yet heard, the
+            <span class="dla dla--ps">{{'dubai lifestyle app' | uppercase}}</span>
+            has just launched internationally and we’re looking for
+            <span class="foxy-bold foxy-bold--ps">{{'100 beta testers' | uppercase}}</span>
+            to make profits of over
+          </div>
+          <div class="text-block__line">
+            <span class="dolar">$</span>
+            <span class="dla dla--sum">7000</span>
+            <span class="dolar">a day</span>
+          </div>
+          <div class="text-block__line">
+            Watch the video now to see how you can join us -
+            <span class="foxy-bold">{{'free!' | uppercase}}</span>
+          </div>
+          <app-dla-team></app-dla-team>
+        </div>
+      </section>
+<!-- seo-and-team end -->
+
+<!-- comments -->
+      <section class="section section__comments">
+        <h2>What People Are Saying</h2>
+        <app-comments></app-comments>
+      </section>
+<!-- comments end -->
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <div class="center-wrapper">
+      <div class="greeting greeting--ps-bottom">
+        Enter your full name and email address in the form below to get immediate
+        <span class="greeting-dla">{{ 'free' | uppercase }}</span>
+        access to the
+        <span class="greeting-dla">{{ 'dubai lifestyle app' | uppercase }}</span>
+      </div>
+      <div class="signup-wrapper signup-wrapper--ps">
+        <app-pre-signup></app-pre-signup>
+      </div>
+      <app-security><span [style.color]="'#fefefe'">We respect your privacy and your information is 100% secure</span></app-security>
+      <div class="epilog">
+        Binary options present a significant opportunity for you to make serious earnings, but like any investment, they present an element of risk. Potential loss of full of partial funds should be considered at all times before making any trade. We urge you to explore individual tax liability laws in your country of residence, and recommend reading our Terms of Service for more information. Please note: It is illegal under U.S. law to solicit the purchase and sale of commodity options unless explicitly listed for trading on a CFTC exchange or legally exempt.
+      </div>
+      <ul class="menu">
+        <li class="menu__item">Terms</li>
+        <li class="menu__item">Privacy</li>
+        <li class="menu__item menu__item--last">Support</li>
+      </ul>
+    </div>
+  </div>
+
+</div>

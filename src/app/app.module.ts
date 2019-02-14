@@ -3,22 +3,28 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { HomeComponent } from './components/home/home.component';
+import { SignupPageComponent } from './components/signup-page/signup-page.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { SecurityComponent } from './components/security/security.component';
 import { DlaTeamComponent } from './components/dla-team/dla-team.component';
 import { LiveAccountsComponent } from './components/live-accounts/live-accounts.component';
+import { PreSignupPageComponent } from './components/pre-signup-page/pre-signup-page.component';
+import { PreSignupComponent } from './components/pre-signup/pre-signup.component';
+import { CommentsComponent } from './components/comments/comments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+    SignupPageComponent,
     SignupComponent,
     TopBarComponent,
     SecurityComponent,
     DlaTeamComponent,
-    LiveAccountsComponent
+    LiveAccountsComponent,
+    PreSignupPageComponent,
+    PreSignupComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { SignupComponent }
-  from './components/signup/signup.component';
-import { HomeComponent } from './components/home/home.component';
+import { PreSignupPageComponent }
+  from './components/pre-signup-page/pre-signup-page.component';
+import { SignupPageComponent } from './components/signup-page/signup-page.component';
 
 const routes: Routes = [
   {
-    path: 'home', component: HomeComponent
+    path: 'signup', component: SignupPageComponent
   },
   {
-    path: 'signup', component: SignupComponent
+    path: 'presignup', component: PreSignupPageComponent
   },
   {
-    path: '**', redirectTo: '/home'
+    path: '**', redirectTo: '/signup'
   }
 ];
 

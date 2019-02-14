@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import user_data from './user-data.json'
+import user_data from './live-accounts.data.json'
 
 @Component({
   selector: 'app-live-accounts',

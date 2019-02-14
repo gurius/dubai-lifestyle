@@ -40,7 +40,6 @@
   text-align: center;
 }
 .greeting-dla{
-  /* font-family: 'Khand - Bold', sans-serif; */
   font-weight: 700;
 }
 .greeting-wt{
@@ -60,7 +59,6 @@
 .video{
   width: 688px;
   height: 395px;
-  /* margin-bottom: 25px; */
   background-color: #000000;
 }
 .signup-wrapper{
