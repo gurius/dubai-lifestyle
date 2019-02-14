@@ -13,11 +13,13 @@
   margin: 0;
 }
 .seo-name{
+  margin-top: 32px;
   margin-bottom: 0;
 }
 .ceo-details{
   font-size: 30px;
   font-weight: 300;
+  line-height: 1;
   font-family: 'Khand', sans-serif;
   text-align: center;
   text-transform: capitalize;
@@ -27,7 +29,7 @@
   width: 240px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 8px auto auto auto;
+  margin: 16px auto 20px auto;
 }
 .seo-photo{
   height: 100%;
@@ -44,6 +46,14 @@
 }
 app-dla-team{
   margin-top: 18px;
+}
+.comments-title{
+  margin-top: 22px;
+  margin-bottom: 18px;
+}
+.section--comments{
+  margin-bottom: 20px;
+  border-bottom: none;
 }
 .greeting--ps-bottom{
   width: 800px;

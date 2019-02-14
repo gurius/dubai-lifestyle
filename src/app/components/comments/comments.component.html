@@ -1,16 +1,24 @@
 <ul>
-  <li *ngFor="let member of comments">
-  <div class="details">
-    By {{member.name}} on {{member.comment_date}}
-    <div class="rating">
-
+  <li class="comment" *ngFor="let member of comments">
+    <div class="comment__details">
+      By <span class="comment__member-name">{{member.name}}</span>
+      on {{toDate(member.comment_date) | date}}
+      <div class="comment__rating-wrapper">
+        <div class="filler" [style.width]="member.rates_us*20+'%'"></div>
+        <div class="rating">
+          <img class="rating__star" src="./assets/images/star.svg" >
+          <img class="rating__star" src="./assets/images/star.svg" >
+          <img class="rating__star" src="./assets/images/star.svg" >
+          <img class="rating__star" src="./assets/images/star.svg" >
+          <img class="rating__star" src="./assets/images/star.svg" >
+        </div>
     </div>
-  </div>
-  <div class="member-status">
-    {{member.status}}
-  </div>
-  <div class="comment">
-    {{member.says}}
-  </div>
+    </div>
+    <div class="comment__member-status">
+      {{member.status | titlecase}}
+    </div>
+    <div class="comment__content">
+      {{member.says}}
+    </div>
   </li>
 </ul>

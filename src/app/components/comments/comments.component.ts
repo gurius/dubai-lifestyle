@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import data from './comments.data.json';
 import { Comment } from './comment';
 @Component({
@@ -12,6 +13,10 @@ export class CommentsComponent implements OnInit {
 
   ngOnInit() {
     this.comments = data.comments;
+  }
+
+  toDate(dateString) {
+    return new Date(dateString);
   }
 
 }
