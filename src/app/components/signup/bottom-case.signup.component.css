@@ -1,14 +1,14 @@
 .form--bottom{
-  width: 785px;
-  height: 174px;
+  max-width: 785px;
   margin: 31px 0 14px 0;
 }
 .block--bottom{
-  width: 386px;
+  max-width: 386px;
 }
 
 .get-access--bottom{
   height: 132px;
+  max-width: 785px;
   font-size: 80px;
   margin-bottom: 10px;
 }

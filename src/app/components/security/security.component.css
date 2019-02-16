@@ -3,29 +3,34 @@
   flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
-  height: 131px;
 }
 .heading{
-  color: #9d9c9c;
   font-weight: 300;
-  margin-top: 12px;
+  margin-top: 16px;
   font-size: 16px;
+  color: #9d9c9c;
+  text-align: center;
 }
 .logos{
+  width: 100%;
+  max-width: 785px;
+  margin: 12px;
   display: flex;
   flex-flow: row wrap;
-  height: 55px;
-  width: 785px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: baseline;
-  margin-bottom: 26px;
+}
+.logos-item{
+  height: 70px;
+  margin: 0 1rem 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logos-item--ssl{
-  display: flex;
-  align-items:flex-start;
-  justify-content: space-between;
-  width: 75px;
+  justify-content: space-around;
 }
 .logos-item__ssl-text{
-  margin-top: 12px;
+  margin-top: 6px;
+  margin-left: 6px;
 }

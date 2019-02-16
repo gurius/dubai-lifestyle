@@ -1,0 +1,8 @@
+@media screen and (max-width: 550px) {
+  .get-access--top{
+    font-size: 36px;
+  }
+  .get-access--bottom{
+    font-size: 46px;
+  }
+}

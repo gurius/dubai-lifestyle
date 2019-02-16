@@ -1,0 +1,22 @@
+@media screen and (max-width: 1100px) {
+  .video-form-block{
+    max-width: 689px;
+    width: 100%;
+    height: fit-content;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .signup-wrapper{
+    width: 674px;
+  }
+  .center-wrapper{
+    margin: 0 1.6rem 0 1.6rem;
+  }
+  .bottom-signup-wrapper{
+    max-width: 753px;
+  }
+  .benefit-block-2{
+    justify-content: space-evenly;
+  }
+}

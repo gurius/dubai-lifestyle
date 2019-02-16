@@ -1,3 +1,7 @@
+:host{
+  width: 100%;
+}
+
 .form{
   display: flex;
   flex-flow: row wrap;
@@ -5,24 +9,53 @@
   width: 100%;
 }
 
+.block{
+  width: 100%;
+}
+
+.line{
+  margin-bottom: 12px;
+  display: flex;
+}
+.input--code{
+  width: 62px;
+}
+.input--phone{
+  margin-left: 8px;
+}
+
+
 .get-access{
   width: 100%;
+  margin: 0;
+  padding: 22px 5px 16px 5px;
+  color: #502922;
+  font-weight: 700;
+  line-height: 1;
+  font-family: 'Khand', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.67);
   border-radius: 10px;
-  border: 7px solid rgba(255, 255, 255, 0.5);
-  background-color: #ffae00;
-  background-image:
-    linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0) 49%,
-      rgba(255, 255, 255, 0.2) 50%,
-      rgba(255, 255, 255, 0.8) 100%
-    );
-
-  color: #502922;
-  font-family: 'Khand', sans-serif;
-  font-size: 46px;
-  font-weight: 700;
-  line-height: 24px;
-  text-transform: uppercase;
+  background-image: none;
+  z-index: 1;
+  position: relative;
+  outline: none;
+}
+.get-access:after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    background-color: #ffae00;
+    background-image: -webkit-linear-gradient(top, #ffd884, #ffba26 50%, #ffae00 51%);
+    background-image: linear-gradient(to bottom, #ffd884, #ffba26 50%, #ffae00 51%);
+    left: 7px;
+    right: 7px;
+    top: 7px;
+    bottom: 7px;
+    border-radius: 7px;
 }

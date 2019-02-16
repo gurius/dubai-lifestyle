@@ -1,0 +1,12 @@
+@media screen and (max-width: 800px) {
+  .signup-wrapper{
+    max-width: 330px;
+    width: 100%;
+  }
+  .bottom-signup-wrapper{
+      max-width: 555px;
+  }
+  .benefit-block-2__item{
+    justify-content: space-evenly;
+  }
+}

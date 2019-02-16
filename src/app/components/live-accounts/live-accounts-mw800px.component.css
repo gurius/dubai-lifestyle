@@ -1,0 +1,28 @@
+@media screen and (max-width: 800px) {
+  .accounts{
+    flex-flow: column;
+  }
+  .accounts-item{
+    width: 100%;
+    border-radius: 14px;
+    border: 2px solid rgba(219, 219, 219, 0.5);
+    flex-flow: row nowrap;
+    height: fit-content;
+    justify-content: flex-start;
+  }
+  .frame{
+    height: 60px;
+    flex: 0 0 60px;
+    margin: 3px;
+  }
+  .accounts-item__info{
+    display: flex;
+    align-items: baseline;
+    margin-top: 0;
+  }
+  .name,
+  .price-line{
+    padding-left: 1rem;
+  }
+
+}

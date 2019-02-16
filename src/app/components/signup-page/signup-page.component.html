@@ -9,9 +9,11 @@
         {{ 'members' | titlecase }}
       </div>
       <div class="video-form-block">
-        <div class="video"></div>
+        <div class="video-wrapper">
+          <div class="video"></div>
+        </div>
         <div class="signup-wrapper">
-          <app-signup [is-top]="true" [is-bottom]="false"></app-signup>
+          <app-signup [is-top]="true"></app-signup>
         </div>
       </div>
     </div>
@@ -96,7 +98,9 @@
         </p>
         <div class="benefit-block-2">
           <div class="benefit-block-2__item">
-            <img src="/assets/images/auto-trade.png" alt="Auto-Trade Functionality">
+            <div class="benefit-image-wrapper">
+              <img class="benefit-image" src="/assets/images/auto-trade.png" alt="Auto-Trade Functionality">
+            </div>
             <div class="benefit-block-2__text">
               <h3>auto-trade functionality</h3>
               <p class="benefit-paragraph">
@@ -107,7 +111,9 @@
             </div>
           </div>
           <div class="benefit-block-2__item">
-            <img src="/assets/images/vip-area.png" alt="VIP Members Area">
+            <div class="benefit-image-wrapper">
+              <img class="benefit-image" src="/assets/images/vip-area.png" alt="VIP Members Area">
+            </div>
             <div class="benefit-block-2__text">
               <h3>VIP members area</h3>
               <p>
@@ -118,7 +124,9 @@
             </div>
           </div>
           <div class="benefit-block-2__item">
-            <img src="/assets/images/24_7.png" alt="24/7 Support">
+            <div class="benefit-image-wrapper">
+              <img class="benefit-image" src="/assets/images/24_7.png" alt="24/7 Support">
+            </div>
             <div class="benefit-block-2__text">
               <h3>24/7 support</h3>
               <p>
@@ -128,7 +136,9 @@
             </div>
           </div>
           <div class="benefit-block-2__item">
-            <img src="/assets/images/members-newsletter.png" alt="Members-Only Newsletter">
+            <div class="benefit-image-wrapper">
+              <img class="benefit-image" src="/assets/images/members-newsletter.png" alt="Members-Only Newsletter">
+            </div>
             <div class="benefit-block-2__text">
               <h3>members-only newsletter</h3>
               <p>
@@ -158,7 +168,9 @@
 
   <div class="bottom-container">
     <div class="center-wrapper">
-        <app-signup [is-top]="false" [is-bottom]="true"></app-signup>
+        <div class="bottom-signup-wrapper">
+          <app-signup [is-bottom]="true"></app-signup>
+        </div>
         <app-security><span [style.color]="'#fefefe'">We respect your privacy and your information is 100% secure</span></app-security>
         <div class="epilog">
           Binary options present a significant opportunity for you to make serious earnings, but like any investment, they present an element of risk. Potential loss of full of partial funds should be considered at all times before making any trade. We urge you to explore individual tax liability laws in your country of residence, and recommend reading our Terms of Service for more information. Please note: It is illegal under U.S. law to solicit the purchase and sale of commodity options unless explicitly listed for trading on a CFTC exchange or legally exempt.

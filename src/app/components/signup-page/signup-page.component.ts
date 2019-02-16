@@ -4,7 +4,11 @@ import data from './q-a.json';
 @Component({
   selector: 'app-signup-page',
   templateUrl: './signup-page.component.html',
-  styleUrls: ['./signup-page.component.css']
+  styleUrls: [
+    './signup-page.component.css',
+    './signup-page-mw1100px.component.css',
+    './signup-page-mw800px.component.css'
+  ]
 })
 export class SignupPageComponent implements OnInit {
   qsAs;

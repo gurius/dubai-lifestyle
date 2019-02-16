@@ -1,0 +1,8 @@
+@media screen and (max-width: 550px){
+  .table-detail{
+    font-size: 6px;
+  }
+  .table-detail__title{
+    flex-basis: 195px
+  }
+}

@@ -5,10 +5,11 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './signup.component.html',
   styleUrls: [
     './base.signup.component.css',
-    './desktop.signup.component.css',     //  device specific
-    './mobile.signup.component.css',      //  device specific
-    './top-case.signup.component.css',    //  case specific
-    './bottom-case.signup.component.css'   //  case specific
+    './top-case.signup.component.css',
+    './bottom-case.signup.component.css',
+    './signup-mw1100px.component.css',
+    './signup-mw800px.component.css',
+    './signup-mw550px.component.css',
   ]
 })
 export class SignupComponent implements OnInit {

@@ -53,12 +53,27 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  width: 1040px;
-  height: 419px;
+  max-width: 1040px;
+  width: 100%;
+}
+.video-wrapper{
+  margin-bottom: 24px;
+  max-width: 688px;
+  min-width: 330px;
+	width: 100%;
+  position: relative;
+}
+.video-wrapper:before{
+	content: "";
+	display: block;
+	padding-top: 57.412790698%;
 }
 .video{
-  width: 688px;
-  height: 395px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: #000000;
 }
 .signup-wrapper{
@@ -69,7 +84,8 @@
 
 .section{
   border-bottom: 1px solid #dbdbdb;
-  width: 1040px;
+  max-width: 1040px;
+  width: 100%;
 }
 .section--accounts{
   border-bottom: 0;
@@ -160,7 +176,8 @@ ol.dubai-list > li:before {
 }
 
 .benefit-block-1{
-  max-width: 842px;
+  max-width: 783px;
+  font-size: 24px;
   text-align: center;
   margin: auto;
 }
@@ -168,27 +185,35 @@ ol.dubai-list > li:before {
 .benefit-block-2{
   display: flex;
   flex-flow: row wrap;
-  width: 1040px;
-  margin: 24px auto 0 auto;
+  max-width: 1040px;
+  margin: 0 auto 24px auto;
   justify-content: space-between;
-  height: 450px;
 }
 .benefit-block-2__item{
+  max-width: 500px;
+  width: 100%;
+  margin-top: 24px;
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   align-items: flex-start;
   justify-content: space-between;
-  width: 500px;
 }
 .benefit-block-2__text{
-  width: 360px;
+  max-width: 360px;
 }
-.benefit--paragraph{
+.benefit-paragraph{
   color: #363636;
-  font-family: "Roboto Condensed";
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 21px;
   font-weight: 300;
 }
+.benefit-image-wrapper{
+  width: 122px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+.benefit-image{}
 
 .qurstions-heading{
   color: var(--light-black);
@@ -228,7 +253,7 @@ ol.dubai-list > li:before {
 }
 .epilog{
   margin-top: 15px;
-  width: 837px;
+  max-width: 837px;
   color: white;
   font-family: Roboto, sans-serif;
   font-size: 12px;
@@ -258,17 +283,7 @@ ol.dubai-list > li:before {
 .menu__item--last{
   border: none;
 }
-
-@media screen and (max-width: 1200px) {
-  .video-form-block{
-    width: 689px;
-    height: 720px;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .signup-wrapper{
-    height: 273px;
-    width: 674px;
-  }
+.bottom-signup-wrapper{
+  max-width: 785px;
+  width: 100%;
 }

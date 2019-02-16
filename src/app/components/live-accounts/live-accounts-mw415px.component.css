@@ -1,0 +1,9 @@
+@media screen and (max-width: 415px) {
+  .name,
+  .price-line{
+    padding-left: 0;
+  }
+  .stats__item{
+    line-height: 1.3;
+  }
+}
