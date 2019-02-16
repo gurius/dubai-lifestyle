@@ -1,0 +1,12 @@
+@media screen and (max-width: 550px) {
+  .input--margin-l{
+    margin-left: 0;
+  }
+  .box{
+    height: 190px;
+    margin: 0;
+  }
+  .get-access{
+    font-size: 40px;
+  }
+}

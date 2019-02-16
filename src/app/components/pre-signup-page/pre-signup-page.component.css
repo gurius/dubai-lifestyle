@@ -1,15 +1,14 @@
 .video--ps{
-  width: 882px;
-  height: 495px;
+  max-width: 882px;
 }
 .greeting--ps{
-  width: 785px;
+  max-width: 785px;
   line-height: 1;
   margin: 27px 0 27px 0;
 }
 .signup-wrapper--ps {
-  width: 882px;
-  height: 266px;
+  max-width: 882px;
+  width: 100%;
   margin: 0;
 }
 .seo-name{
@@ -37,7 +36,7 @@
 }
 .text-block--ps{
   margin: auto;
-  width: 770px;
+  max-width: 770px;
 }
 .text-block--ps,
 .foxy-bold--ps,
@@ -56,7 +55,7 @@ app-dla-team{
   border-bottom: none;
 }
 .greeting--ps-bottom{
-  width: 800px;
+  max-width: 800px;
   font-size: 30px;
   line-height: 1.6;
   margin-top: 22px;
