@@ -68,6 +68,8 @@ input{
   font-size: 18px;
   font-weight: 300;
   padding: 0 0 0 18px;
+  box-sizing: border-box;
+  outline: none;
 }
 
 p{

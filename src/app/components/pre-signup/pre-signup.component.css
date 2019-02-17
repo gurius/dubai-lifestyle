@@ -40,6 +40,7 @@
   z-index: 1;
   position: relative;
   outline: none;
+  cursor: pointer;
 }
 .get-access:after {
     content: '';
@@ -54,4 +55,26 @@
     top: 7px;
     bottom: 7px;
     border-radius: 7px;
+}
+.error-wrapper{
+  width: 100%;
+  border-radius: 5rem;
+  padding-left: 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.error-block{
+  width: 50%;
+  text-align: center;
+}
+.error{
+  font-size: 1.6rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+.ng-dirty.ng-touched.ng-invalid{
+  border-color: red;
 }

@@ -44,6 +44,7 @@
   z-index: 1;
   position: relative;
   outline: none;
+  cursor: pointer;
 }
 .get-access:after {
     content: '';
@@ -58,4 +59,32 @@
     top: 7px;
     bottom: 7px;
     border-radius: 7px;
+}
+.code-phone-wrapper{
+  display: flex;
+}
+.error-wrapper{
+  width: 100%;
+  border-radius: 5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.error-wrapper--upper{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.error-block{
+  /* width: 50%; */
+  text-align: center;
+}
+.error{
+  font-size: 1.6rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+.ng-dirty.ng-touched.ng-invalid{
+  border-color: red;
 }

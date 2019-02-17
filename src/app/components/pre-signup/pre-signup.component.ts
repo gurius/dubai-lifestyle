@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-pre-signup',
@@ -10,9 +11,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PreSignupComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  goToSignup(user) {
+    const { userName: name, userEmail: email } = user;
+    this.router.navigate(['/signup'], { queryParams: { name, email } });
+  }
 }

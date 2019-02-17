@@ -1,38 +1,79 @@
-<form class="form" [class.form--top]="isTop" [class.form--bottom]="isBottom">
+<form class="form" [class.form--top]="isTop" [class.form--bottom]="isBottom" (ngSubmit)="signup()" [formGroup]="fGroup">
   <div class="block" [class.block--top]="isTop" [class.block--bottom]="isBottom">
-    <div class="line line--fname">
-      <input class="input" placeholder="First Name" type="text">
+    <div class="line ">
+      <div class="error-wrapper">
+        <div class="error" *ngIf="fnameCtrl.dirty && fnameCtrl.hasError('required')">
+          Please enter a name!
+        </div>
+        <div class="error"  *ngIf="fnameCtrl.dirty && fnameCtrl.hasError('minlength')">
+          Firs Name should be at least 2 symbols length!
+        </div>
+        <input class="input" placeholder="First Name" type="text" formControlName="fname">
+      </div>
     </div>
-    <div class="line line--lname">
-      <input class="input" placeholder="Last Name" type="text">
+    <div class="line ">
+      <div class="error-wrapper">
+        <div class="error" *ngIf="lnameCtrl.dirty && lnameCtrl.hasError('required')">
+          Please enter a name!
+        </div>
+        <div class="error"  *ngIf="lnameCtrl.dirty && lnameCtrl.hasError('minlength')">
+          Last Name should be at least 2 symbols length!
+        </div>
+        <input class="input" placeholder="Last Name" type="text" formControlName="lname">
+      </div>
     </div>
   </div>
 
   <div class="block" [class.block--top]="isTop" [class.block--bottom]="isBottom">
-    <div class="line line--email">
-      <input class="input" placeholder="Email" type="email" name="" value="">
+    <div class="line ">
+      <div class="error-wrapper">
+        <div class="error" *ngIf="emailCtrl.dirty && emailCtrl.hasError('required')">
+          Please enter an Email!
+        </div>
+        <div class="error"  *ngIf="emailCtrl.dirty && emailCtrl.hasError('email') && emailCtrl.value.length">
+          Please enter a valid email!
+        </div>
+        <input class="input" placeholder="Email" type="email" formControlName="email">
+      </div>
     </div>
-    <div class="line line--password">
-      <input class="input" placeholder="Password" type="password" name="" value="">
+    <div class="line ">
+      <div class="error-wrapper">
+        <div class="error" *ngIf="passCtrl.dirty && passCtrl.hasError('required')">
+          Please enter a Password!
+        </div>
+        <div class="error"  *ngIf="passCtrl.dirty && passCtrl.hasError('minlength')">
+          Password should be at least 8 symbols length!
+        </div>
+        <input class="input" placeholder="Password" type="password" formControlName="pass">
+      </div>
     </div>
   </div>
 
   <div class="block" [class.block--top]="isTop" [class.block--bottom]="isBottom">
-    <div class="line line--code-phone">
-      <input class="input input--code" type="text" placeholder="49">
-      <input class="input input--phone" placeholder="Phone number" type="tel" >
+    <div class="error-wrapper error-wrapper--upper">
+      <div class="error" *ngIf="codeCtrl.dirty && codeCtrl.hasError('required')">
+        Please enter a Code!
+      </div>
+      <div class="error"  *ngIf="codeCtrl.dirty && codeCtrl.hasError('minlength') || codeCtrl.dirty && codeCtrl.hasError('maxlength')">
+        Code should be 2 symbols length!
+      </div>
+      <div class="error" *ngIf="phoneCtrl.dirty && phoneCtrl.hasError('required')">
+        Please enter a Phone number!
+      </div>
+      <div class="error"  *ngIf="phoneCtrl.dirty && phoneCtrl.hasError('minlength') || phoneCtrl.dirty && phoneCtrl.hasError('maxlength')">
+        Phone number should be 7 symbols length!
+      </div>
+    </div>
+    <div class="line">
+        <input class="input input--code" type="text" placeholder="49" formControlName="code">
+        <input class="input input--phone" placeholder="Phone number" type="tel" formControlName="phone" >
     </div>
   </div>
 
-</form>
-<button
-  [ngClass]=
-  "{
-    'get-access': true,
-    'get-access--top': isTop,
-    'get-access--bottom': isBottom
-  }"
-  type="submit"
-  [disabled]="true" >
+  <button
+    [ngClass]="{ 'get-access': true, 'get-access--top': isTop, 'get-access--bottom': isBottom }"
+    type="submit"
+    [disabled]="fGroup.invalid" >
     get free access
-</button>
+  </button>
+</form>

@@ -1,11 +1,43 @@
-<form class="form">
-
+<form (ngSubmit)="goToSignup(preSignupForm.value)" class="form" #preSignupForm="ngForm">
+  <div *ngIf="nameInput.dirty || emailInput.dirty" class="error-wrapper">
+    <div class="error-block">
+      <div class="error" *ngIf="nameInput.dirty && nameInput.hasError('required')">
+        Please enter a name!
+      </div>
+      <div class="error" *ngIf="nameInput.dirty && nameInput.hasError('minlength')">
+        Name should be at least two symbols length!
+      </div>
+    </div>
+    <div class="error-block">
+      <div class="error" *ngIf="emailInput.dirty && emailInput.hasError('required')">
+        Please enter an email address!
+      </div>
+      <div class="error" *ngIf="emailInput.dirty && emailInput.hasError('email')">
+        Please enter a valid email!
+      </div>
+    </div>
+  </div>
   <div class="box">
-    <input class="input" placeholder="Enter Your Name" type="text">
-    <input class="input input--margin-l" placeholder="Enter Your Email" type="email">
+    <input class="input"
+           placeholder="Enter Your Name"
+           type="text"
+           name="userName"
+           required
+           minlength="2"
+           ngModel
+           #nameInput="ngModel">
+
+    <input class="input input--margin-l"
+           placeholder="Enter Your Email"
+           type="email"
+           name="userEmail"
+           required
+           email
+           ngModel
+           #emailInput="ngModel">
   </div>
 
-</form>
-<button class="get-access" >
+  <button [disabled]="preSignupForm.invalid" type="submit" class="get-access" >
     get free access
-</button>
+  </button>
+</form>

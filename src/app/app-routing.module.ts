@@ -13,7 +13,7 @@ const routes: Routes = [
     path: 'presignup', component: PreSignupPageComponent
   },
   {
-    path: '**', redirectTo: '/signup'
+    path: '**', redirectTo: '/presignup'
   }
 ];
 
