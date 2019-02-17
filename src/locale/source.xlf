@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="beOneOf" datatype="html">
+        <source>
+          <x id="INTERPOLATION"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="betaTest" datatype="html">
+        <source>
+          <x id="INTERPOLATION"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <note priority="1" from="meaning">beta testers</note>
+      </trans-unit>
+      <trans-unit id="toProfitFrom" datatype="html">
+        <source>
+          <x id="INTERPOLATION"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dla" datatype="html">
+        <source>
+          <x id="INTERPOLATION"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+        <note priority="1" from="description">name of app</note>
+        <note priority="1" from="meaning">dla</note>
+      </trans-unit>
+      <trans-unit id="security" datatype="html">
+        <source>
+          We respect your privacy and your information is 100% secure
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+        <note priority="1" from="meaning">security</note>
+      </trans-unit>
+      <trans-unit id="meetCeo" datatype="html">
+        <source>Meet Scott Hathaway</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ceoDetails" datatype="html">
+        <source>CEO &amp; founder</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ceoName" datatype="html">
+        <source>Scott Hathaway</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <note priority="1" from="description"> The name of ceo</note>
+        <note priority="1" from="meaning">ceo name</note>
+      </trans-unit>
+      <trans-unit id="778fb3557308b7cc8a8dddc4419662058961a023" datatype="html">
+        <source>If you haven’t yet heard, the</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20aae0e5cfc97f64b9fda04d6ea3d5b8a7ca6fe2" datatype="html">
+        <source>
+              has just launched internationally and we’re looking for
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34f8111e9b1cc21eea964b014c2cffcd566e1b07" datatype="html">
+        <source>to make profits of over</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dfa69da0388fe681ab77738346ad1a5bf9209bf3" datatype="html">
+        <source>a day</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="31af480afc63b705a18a22d35fc4f74e87dc7083" datatype="html">
+        <source>
+              Watch the video now to see how you can join us -
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="free" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+        <note priority="1" from="meaning">free</note>
+      </trans-unit>
+      <trans-unit id="pepleSaying" datatype="html">
+        <source>
+          What People Are Saying
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <note priority="1" from="meaning">comments title</note>
+      </trans-unit>
+      <trans-unit id="cdabeaf3439aa41ec9880c4cbd21b727720b58ff" datatype="html">
+        <source>
+          Enter your full name and email address in the form below to get immediate
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="23b7e19c5c44cbac4381cd4f3dfde034381004b5" datatype="html">
+        <source>
+          access to the
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="epilog" datatype="html">
+        <source>
+        Binary options present a significant opportunity for you to make serious earnings, but like any investment, they present an element of risk. Potential loss of full of partial funds should be considered at all times before making any trade. We urge you to explore individual tax liability laws in your country of residence, and recommend reading our Terms of Service for more information. Please note: It is illegal under U.S. law to solicit the purchase and sale of commodity options unless explicitly listed for trading on a CFTC exchange or legally exempt.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+        <note priority="1" from="meaning">epilog</note>
+      </trans-unit>
+      <trans-unit id="terms" datatype="html">
+        <source>Terms</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+        <note priority="1" from="meaning">terms</note>
+      </trans-unit>
+      <trans-unit id="privacy" datatype="html">
+        <source>Privacy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+        <note priority="1" from="meaning">privacy</note>
+      </trans-unit>
+      <trans-unit id="support" datatype="html">
+        <source>
+          Support
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/pre-signup-page/pre-signup-page.component.ts</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+        <note priority="1" from="meaning">support</note>
+      </trans-unit>
+      <trans-unit id="by" datatype="html">
+        <source>By </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/comments/comments.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">by who</note>
+        <note priority="1" from="meaning">by</note>
+      </trans-unit>
+      <trans-unit id="on" datatype="html">
+        <source>on</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/comments/comments.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">on date</note>
+        <note priority="1" from="meaning">on</note>
+      </trans-unit>
+      <trans-unit id="6ef0fc11ab9ebdddd1f1404de0e7ae5bc88698e5" datatype="html">
+        <source>
+      <x id="ICU"/>
+      <x id="INTERPOLATION_1"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/comments/comments.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description"> </note>
+        <note priority="1" from="meaning">member status</note>
+      </trans-unit>
+      <trans-unit id="b6f8f37b995c6778c087f2d1f346c20b98e03e65" datatype="html">
+        <source>{VAR_SELECT, select, verified member {verified member} other {<x id="INTERPOLATION"/> not translated yet} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/comments/comments.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

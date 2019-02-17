@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import data from './q-a.json';
 
 @Component({
@@ -10,7 +10,7 @@ import data from './q-a.json';
     './signup-page-mw800px.component.css'
   ]
 })
-export class SignupPageComponent implements OnInit {
+export class SignupPageComponent implements OnInit, AfterViewInit {
   qsAs;
   constructor() { }
 
@@ -22,6 +22,9 @@ export class SignupPageComponent implements OnInit {
       return question;
     });
 
+  }
+  ngAfterViewInit() {
+    document.body.scrollTop = 0;
   }
 
   onQuestionClick(answElem, qaPair){

@@ -1,8 +1,10 @@
 <ul>
   <li class="comment" *ngFor="let member of comments">
     <div class="comment__details">
-      By <span class="comment__member-name">{{member.name}}</span>
-      on {{toDate(member.comment_date) | date}}
+      <ng-container i18n="by|by who@@by">By </ng-container>
+      <span class="comment__member-name">{{member.name}}</span>
+      <ng-container i18n="on|on date@@on">on</ng-container>
+      {{toDate(member.comment_date) | date}}
       <div class="comment__rating-wrapper">
         <div class="filler" [style.width]="member.rates_us*20+'%'"></div>
         <div class="rating">
@@ -14,7 +16,8 @@
         </div>
     </div>
     </div>
-    <div class="comment__member-status">
+    <div class="comment__member-status" i18n="member status| ">
+      {member.status, select, verified member {verified member} other {{{member.status}} not translated yet}}
       {{member.status | titlecase}}
     </div>
     <div class="comment__content">

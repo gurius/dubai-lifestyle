@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
@@ -33,7 +33,7 @@ import { CommentsComponent } from './components/comments/comments.component';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [{ provide: LOCALE_ID, useValue: 'en' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
