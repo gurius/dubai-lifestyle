@@ -69,11 +69,8 @@
         <input class="input input--phone" placeholder="Phone number" type="tel" formControlName="phone" >
     </div>
   </div>
-
-  <button
-    [ngClass]="{ 'get-access': true, 'get-access--top': isTop, 'get-access--bottom': isBottom }"
-    type="submit"
-    [disabled]="fGroup.invalid" >
+  <app-big-yellow-button btnClass="{{isTop ? 'get-access--top' : 'get-access--bottom'}}"
+                     [btnDisabled]="fGroup.invalid">
     get free access
-  </button>
+  </app-big-yellow-button>
 </form>

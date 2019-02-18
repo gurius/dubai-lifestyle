@@ -36,8 +36,7 @@
            ngModel
            #emailInput="ngModel">
   </div>
-
-  <button [disabled]="preSignupForm.invalid" type="submit" class="get-access" >
+  <app-big-yellow-button btnClass="get-access--pre-signup" [btnDisabled]="preSignupForm.invalid">
     get free access
-  </button>
+  </app-big-yellow-button>
 </form>

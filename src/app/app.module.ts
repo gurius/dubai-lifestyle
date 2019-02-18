@@ -13,6 +13,7 @@ import { LiveAccountsComponent } from './components/live-accounts/live-accounts.
 import { PreSignupPageComponent } from './components/pre-signup-page/pre-signup-page.component';
 import { PreSignupComponent } from './components/pre-signup/pre-signup.component';
 import { CommentsComponent } from './components/comments/comments.component';
+import { BigYellowButtonComponent } from './components/big-yellow-button/big-yellow-button.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CommentsComponent } from './components/comments/comments.component';
     LiveAccountsComponent,
     PreSignupPageComponent,
     PreSignupComponent,
-    CommentsComponent
+    CommentsComponent,
+    BigYellowButtonComponent
   ],
   imports: [
     BrowserModule,

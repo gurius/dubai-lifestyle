@@ -11,7 +11,6 @@ import { ActivatedRoute } from '@angular/router';
     './bottom-case.signup.component.css',
     './signup-mw1100px.component.css',
     './signup-mw800px.component.css',
-    './signup-mw550px.component.css',
   ]
 })
 export class SignupComponent implements OnInit {
