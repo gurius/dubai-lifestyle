@@ -1,8 +1,6 @@
-:host{
-  width: 100%;
-}
 .box{
   max-width: 882px;
+  width: 100%;
   margin: 18px 0 27px 0;
   display: flex;
   flex-flow: row wrap;
@@ -21,60 +19,15 @@
 
 .get-access{
   height: 132px;
-  width: 100%;
-  margin: 0;
-  padding: 22px 5px 16px 5px;
-  color: #502922;
   font-size: 80px;
-  font-weight: 700;
-  line-height: 1;
-  font-family: 'Khand', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  vertical-align: middle;
-  border: none;
-  background: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0 14px rgba(0, 0, 0, 0.67);
-  border-radius: 10px;
-  background-image: none;
-  z-index: 1;
-  position: relative;
-  outline: none;
-  cursor: pointer;
 }
-.get-access:after {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: -1;
-    background-color: #ffae00;
-    background-image: -webkit-linear-gradient(top, #ffd884, #ffba26 50%, #ffae00 51%);
-    background-image: linear-gradient(to bottom, #ffd884, #ffba26 50%, #ffae00 51%);
-    left: 7px;
-    right: 7px;
-    top: 7px;
-    bottom: 7px;
-    border-radius: 7px;
-}
+
 .error-wrapper{
-  width: 100%;
-  border-radius: 5rem;
   padding-left: 2rem;
-  background-color: rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
-  display: flex;
   flex-flow: row nowrap;
-  align-items: center;
 }
 .error-block{
   width: 50%;
-  text-align: center;
-}
-.error{
-  font-size: 1.6rem;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: white;
-}
-.ng-dirty.ng-touched.ng-invalid{
-  border-color: red;
+
 }

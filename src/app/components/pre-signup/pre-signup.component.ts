@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
   selector: 'app-pre-signup',
   templateUrl: './pre-signup.component.html',
   styleUrls: [
+    '../signup/base.signup.component.css',
     './pre-signup.component.css',
     './pre-signup-mw550px.component.css'
   ]
