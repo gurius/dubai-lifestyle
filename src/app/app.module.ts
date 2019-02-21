@@ -14,6 +14,7 @@ import { PreSignupPageComponent } from './components/pre-signup-page/pre-signup-
 import { PreSignupComponent } from './components/pre-signup/pre-signup.component';
 import { CommentsComponent } from './components/comments/comments.component';
 import { BigYellowButtonComponent } from './components/big-yellow-button/big-yellow-button.component';
+import { StarsRaterComponent } from './components/stars-rater/stars-rater.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { BigYellowButtonComponent } from './components/big-yellow-button/big-yel
     PreSignupPageComponent,
     PreSignupComponent,
     CommentsComponent,
-    BigYellowButtonComponent
+    BigYellowButtonComponent,
+    StarsRaterComponent
   ],
   imports: [
     BrowserModule,

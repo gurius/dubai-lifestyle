@@ -6,14 +6,7 @@
       <ng-container i18n="on|on date@@on">on</ng-container>
       {{toDate(member.comment_date) | date}}
       <div class="comment__rating-wrapper">
-        <div class="filler" [style.width]="member.rates_us*20+'%'"></div>
-        <div class="rating">
-          <img class="rating__star" src="./assets/images/star.svg" >
-          <img class="rating__star" src="./assets/images/star.svg" >
-          <img class="rating__star" src="./assets/images/star.svg" >
-          <img class="rating__star" src="./assets/images/star.svg" >
-          <img class="rating__star" src="./assets/images/star.svg" >
-        </div>
+        <app-stars-rater [rate]="member.rates_us" stars="5"></app-stars-rater>
     </div>
     </div>
     <div class="comment__member-status" i18n="member status| ">

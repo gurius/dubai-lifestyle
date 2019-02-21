@@ -1,0 +1,32 @@
+.filler{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  background-color: #ffb800;
+}
+.rating__star{
+  height: 20px;
+  z-index: 1;
+}
+.rating{
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: fit-content;
+}
+#starmold{
+  fill: var(--background-color);
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: var(--background-color);
+  stroke-width: 11.48700047;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-opacity: 0;
+  paint-order: stroke fill markers;
+  opacity:1;
+}
